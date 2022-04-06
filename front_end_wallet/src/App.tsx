@@ -1,18 +1,16 @@
 import React from 'react';
-
-
-function App() {
+import GlobalStyle from './styles/GlobalStyle';
+import Dashboard from './pages/Dashboard/dashboard';
+const App: React.FC = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        
-        <p>
-          Edit <code>src/App.tsx</code> Teste.
-        </p>
-        
-      </header>
-    </div>
-  );
+    <>
+      <GlobalStyle/>
+        <Dashboard />
+      
+    </>
+
+  )
 }
+
 
 export default App;
