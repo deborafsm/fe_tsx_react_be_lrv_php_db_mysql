@@ -1,7 +1,8 @@
 import styled from 'styled-components';
 
-const Container = styled.div`
+export const Container = styled.div
+`
     grid-area: AS;
-    background-color: #252a48;
-`;
-export default Container
+    background-color: #252A48;
+`
+;

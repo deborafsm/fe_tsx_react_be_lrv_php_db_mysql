@@ -1,6 +1,6 @@
 export default {
     title: 'dark',
-    color: {
+    colors: {
         primary: '#1b1d38',
         secondary: '#252A48',
         tertiary: '#313862',
@@ -11,7 +11,7 @@ export default {
 
         success: '#4E41F0',
         info: '#F7931B',
-        warning: "#E44C4E"
+        warning:'#E44C4E',
 
-    }
-}
+    },
+};
