@@ -7,7 +7,7 @@ import Layout from './components/Layout/layout';
 const App: React.FC = () => {
   return (
     <>
-    <ThemeProvider theme = {light}>
+    <ThemeProvider theme = {dark}>
       <GlobalStyle/>
         <Layout/>
     </ThemeProvider>
