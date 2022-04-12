@@ -3,17 +3,19 @@ import {
     Container,
     Headers,
     MenuContainer,
-    MenuItemLink
+    MenuItemLink,
+    Title
 
 } from './style';
-import { FaLevelDownAlt, FaToriiGate } from "react-icons/fa";
+import { FaLevelDownAlt,FaRegHeart, FaMoneyBill } from "react-icons/fa";
 
 
 const Aside: React.FC = () => {
     return (
         <Container>
             <Headers>
-                <FaToriiGate  size={50}/>
+                <FaMoneyBill  size={50}/>
+                {/* <Title>Zhou Zi Shu <FaRegHeart/> Wen Ke Xing </Title> */}
             </Headers>
             <MenuContainer>
                 <MenuItemLink href="#">

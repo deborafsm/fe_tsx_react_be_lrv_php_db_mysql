@@ -30,3 +30,11 @@ export const MenuItemLink = styled.a`
     color: ${props => props.theme.colors.gray}
     
 `;
+export const Title = styled.h3`
+    display:flex;
+    
+    text-decoration: none;
+    font-size: 1.3rem;
+    color: ${props => props.theme.colors.gray}
+    
+`;
