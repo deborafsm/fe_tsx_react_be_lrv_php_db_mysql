@@ -1,6 +1,6 @@
 import emojis from "../../utils/emojis";
 import React, { useMemo } from "react";
-
+import { FaBeer } from 'react-icons/fa';
 import Toggle from '../../components/Toggle/Toggle';
 import {
     Container,
@@ -20,6 +20,7 @@ const Header: React.FC = () => {
                 <Welcome>
                     Olá, {emoji}
                     <UserName>UserName: Débora Freire</UserName>
+                   
                 </Welcome>
             </Profile>
         </Container>
