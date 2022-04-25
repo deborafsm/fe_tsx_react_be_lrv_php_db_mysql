@@ -28,7 +28,7 @@ export const MenuContainer = styled.nav`
 export const MenuItemLink = styled.a`
     display:flex;
     text-decoration: none;
-    font-size: 1.3rem;
+    font-size: 1.0rem;
     margin: 40px 0;
     color: ${props => props.theme.colors.gray};
     transition: opacity .3s;

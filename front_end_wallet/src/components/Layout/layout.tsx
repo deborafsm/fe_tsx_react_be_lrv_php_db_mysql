@@ -3,12 +3,14 @@ import Grid from "./style";
 import Header from "../Header/header";
 import Aside from "../Aside/aside";
 import Content from "../Content/content";
-const Layout: React.FC = () => {
+const Layout: React.FC = ({ children }) => {
     return (
         <Grid>
             <Header />
             <Aside />
-            <Content />
+            <Content >
+                { children }
+            </Content>
         </Grid>
 
 
