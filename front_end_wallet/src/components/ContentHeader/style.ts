@@ -1,5 +1,8 @@
 import styled from "styled-components";
 
+interface ITitleHeaderProps {
+    lineColor: string
+}
 export const Container = styled.div`
     width:100%;
     background-color: ${props => props.theme.colors.primary};
@@ -8,14 +11,14 @@ export const Container = styled.div`
     margin-bottom: 25px;
 `;
 
-export const TitleHeader = styled.div`
+export const TitleHeader = styled.div<ITitleHeaderProps>`
    > h2{
        color:${props => props.theme.colors.white};
        &::after {
            content: '';
            display: block;
            width: 55px;
-           border-bottom: 10px solid ${props => props.theme.colors.info}
+           border-bottom: 10px solid ${props => props.lineColor}
           
        }
    }

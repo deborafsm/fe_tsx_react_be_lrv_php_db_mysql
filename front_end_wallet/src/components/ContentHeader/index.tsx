@@ -17,8 +17,8 @@ interface IContentHeaderProps {
 const ContentHeader: React.FC<IContentHeaderProps> = ({ title, lineColor, children }) => {
 
     return (
-        <Container>
-            <TitleHeader>
+        <Container >
+            <TitleHeader lineColor={lineColor}>
                 <h2>Content Header</h2>
             </TitleHeader>
             <ControllersHeader>
