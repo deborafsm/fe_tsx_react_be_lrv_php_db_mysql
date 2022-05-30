@@ -14,17 +14,23 @@ const List: React.FC = () => {
                 <SelectInput options={options} />
             </ContentHeader>
             <Content>
-                <HistoryFinanceCard cardColor="#c660ff" tagColor="#f5b7d4" title="TV Samsung" subtitle="QLED" amount="R$ 4k" />
-                <HistoryFinanceCard cardColor="#c660ff" tagColor="#f5b7d4" title="TV Samsung" subtitle="QLED" amount="R$ 4k" />
-                <HistoryFinanceCard cardColor="#c660ff" tagColor="#f5b7d4" title="TV Samsung" subtitle="QLED" amount="R$ 4k" />
-                <HistoryFinanceCard cardColor="#c660ff" tagColor="#f5b7d4" title="TV Samsung" subtitle="QLED" amount="R$ 4k" />
-                <HistoryFinanceCard cardColor="#c660ff" tagColor="#f5b7d4" title="TV Samsung" subtitle="QLED" amount="R$ 4k" />
-                <HistoryFinanceCard cardColor="#c660ff" tagColor="#f5b7d4" title="TV Samsung" subtitle="QLED" amount="R$ 4k" />
-                <HistoryFinanceCard cardColor="#c660ff" tagColor="#f5b7d4" title="TV Samsung" subtitle="QLED" amount="R$ 4k" />
-                <HistoryFinanceCard cardColor="#c660ff" tagColor="#f5b7d4" title="TV Samsung" subtitle="QLED" amount="R$ 4k" />
-                <HistoryFinanceCard cardColor="#c660ff" tagColor="#f5b7d4" title="TV Samsung" subtitle="QLED" amount="R$ 4k" />
-                <HistoryFinanceCard cardColor="#c660ff" tagColor="#f5b7d4" title="TV Samsung" subtitle="QLED" amount="R$ 4k" />
-                <HistoryFinanceCard cardColor="#c660ff" tagColor="#f5b7d4" title="TV Samsung" subtitle="QLED" amount="R$ 4k" />
+                <HistoryFinanceCard cardColor="#E44C4E" tagColor="#000" title="TV Samsung" subtitle="QLED" amount="R$ 4k" />
+                <HistoryFinanceCard cardColor="#E44C4E" tagColor="#000" title="TV Samsung" subtitle="QLED" amount="R$ 4k" />
+                <HistoryFinanceCard cardColor="#E44C4E" tagColor="#000" title="TV Samsung" subtitle="QLED" amount="R$ 4k" />
+                <HistoryFinanceCard cardColor="#E44C4E" tagColor="#000" title="TV Samsung" subtitle="QLED" amount="R$ 4k" />
+                <HistoryFinanceCard cardColor="#E44C4E" tagColor="#000" title="TV Samsung" subtitle="QLED" amount="R$ 4k" />
+                <HistoryFinanceCard cardColor="#E44C4E" tagColor="#000" title="TV Samsung" subtitle="QLED" amount="R$ 4k" />
+                <HistoryFinanceCard cardColor="#E44C4E" tagColor="#000" title="TV Samsung" subtitle="QLED" amount="R$ 4k" />
+                <HistoryFinanceCard cardColor="#E44C4E" tagColor="#000" title="TV Samsung" subtitle="QLED" amount="R$ 4k" />
+                <HistoryFinanceCard cardColor="#E44C4E" tagColor="#000" title="TV Samsung" subtitle="QLED" amount="R$ 4k" />
+                <HistoryFinanceCard cardColor="#E44C4E" tagColor="#000" title="TV Samsung" subtitle="QLED" amount="R$ 4k" />
+                <HistoryFinanceCard cardColor="#E44C4E" tagColor="#000" title="TV Samsung" subtitle="QLED" amount="R$ 4k" />
+                <HistoryFinanceCard cardColor="#E44C4E" tagColor="#000" title="TV Samsung" subtitle="QLED" amount="R$ 4k" />
+                <HistoryFinanceCard cardColor="#E44C4E" tagColor="#000" title="TV Samsung" subtitle="QLED" amount="R$ 4k" />
+                <HistoryFinanceCard cardColor="#E44C4E" tagColor="#000" title="TV Samsung" subtitle="QLED" amount="R$ 4k" />
+                <HistoryFinanceCard cardColor="#E44C4E" tagColor="#000" title="TV Samsung" subtitle="QLED" amount="R$ 4k" />
+                <HistoryFinanceCard cardColor="#E44C4E" tagColor="#000" title="TV Samsung" subtitle="QLED" amount="R$ 4k" />
+                <HistoryFinanceCard cardColor="#E44C4E" tagColor="#000" title="TV Samsung" subtitle="QLED" amount="R$ 4k" />
             </Content>
         </Container>
     )
