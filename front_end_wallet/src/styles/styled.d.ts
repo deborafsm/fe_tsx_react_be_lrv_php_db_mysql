@@ -7,13 +7,15 @@ declare module 'styled-components' {
             secondary: string;
             tertiary: string;
 
-            white: string;          
-            black: string;          
+            white: string;
+            black: string;
             gray: string;
 
             success: string;
             info: string;
             warning: string;
+
+            green: string;
         },
 
     };

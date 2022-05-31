@@ -12,6 +12,6 @@ export default {
         success: '#03BB85',
         info: '#3B5998',
         warning: '#FF6961',
-
+        green: '#008000',
     },
 };
