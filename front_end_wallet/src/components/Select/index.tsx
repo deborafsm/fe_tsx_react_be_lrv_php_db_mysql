@@ -12,9 +12,9 @@ const SelectInput: React.FC<ISelectInputProps> = ({ options }) => {
     return (
         <Container>
 
-            <select>
+            <select >
                 {options.map(option => (
-                    <option value={option.value}>{option.label}</option>
+                    <option value={option.value} key={option.value}>{option.label}</option>
                 ))
                 }
             </select>

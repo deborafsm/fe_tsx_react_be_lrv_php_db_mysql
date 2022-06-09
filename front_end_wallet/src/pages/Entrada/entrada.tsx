@@ -1,5 +1,5 @@
 import React, { useMemo } from "react";
-import { Container, Content, Filters } from "./styles";
+import { Container, Content, Filters } from "./stylesEntrada";
 import ContentHeader from '../../components/ContentHeader/index'
 import HistoryFinanceCard from "../../components/HistoryFinanceCard";
 import SelectInput from "../../components/Select";
@@ -22,7 +22,7 @@ const List: React.FC = () => {
     ]
     return (
         <Container>
-            <ContentHeader title={'Saída'} lineColor="#fff">
+            <ContentHeader title={'Entrada'} lineColor="#fff">
                 <SelectInput options={months} />
                 <SelectInput options={years} />
             </ContentHeader>
