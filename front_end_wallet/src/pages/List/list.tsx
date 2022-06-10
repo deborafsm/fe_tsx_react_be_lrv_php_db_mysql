@@ -1,13 +1,22 @@
-import React, { useMemo } from "react";
+import React, { useMemo, useState, useEffect } from "react";
 import { Container, Content, Filters } from "./styles";
 import ContentHeader from '../../components/ContentHeader/index'
 import HistoryFinanceCard from "../../components/HistoryFinanceCard";
 import SelectInput from "../../components/Select";
+import Saidas from '../../utils/expenses'
+interface IData {
+    id: string;
+    description: string;
+    amoutFormatted: string;
+    frequency: string;
+    dataFormatted: string;
+    tagColor: string;
 
-
+}
 // match -> parametros que estão na rota
 const List: React.FC = () => {
-    
+    const [data, setData] = useState<IData[]>([])
+    console.log(data)
     const months = [
         { 'value': 7, 'label': 'Julho' },
         { 'value': 8, 'label': 'Agosto' },
@@ -20,6 +29,21 @@ const List: React.FC = () => {
         { 'value': 2019, 'label': 2019 },
         { 'value': 2018, 'label': 2018 },
     ]
+
+    useEffect(() => {
+        const response = Saidas.map(item => {
+
+            return {
+                id: String(Math.random() * 10),
+                description: item.description,
+                amoutFormatted: item.amount,
+                frequency: item.frequency ,
+                dataFormatted: item.date,
+                tagColor:  item.frequency === 'recorrente' ? '#d32f2f' : '#4caf50'
+            }
+        })
+        setData(response)
+    }, []);
     return (
         <Container>
             <ContentHeader title={'Saída'} lineColor="#fff">
@@ -39,7 +63,18 @@ const List: React.FC = () => {
                 </button>
             </Filters>
             <Content>
-                <HistoryFinanceCard cardColor="#E44C4E" tagColor="#000" title="TV Samsung" subtitle="QLED" amount="R$ 4k" />
+                {
+                    data.map(item => (
+
+                        <HistoryFinanceCard
+                            key={item.id}
+                            cardColor="#5e35b1"
+                            tagColor={item.tagColor}
+                            title={item.description}
+                            subtitle={item.dataFormatted}
+                            amount={item.amoutFormatted} />
+                    ))
+                }
             </Content>
         </Container>
     )
